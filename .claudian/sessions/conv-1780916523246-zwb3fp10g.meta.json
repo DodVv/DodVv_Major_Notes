@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780916523246-zwb3fp10g",
+  "providerId": "claude",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780916523251,
+  "updatedAt": 1780916558010,
+  "lastResponseAt": 1780916558010,
+  "sessionId": "5b0f5ebc-544a-4783-99e6-ffe2ba700e0b",
+  "providerState": {
+    "providerSessionId": "5b0f5ebc-544a-4783-99e6-ffe2ba700e0b"
+  },
+  "currentNote": "DodVv_Major_Notes/未命名.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 21125,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 21125,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}
