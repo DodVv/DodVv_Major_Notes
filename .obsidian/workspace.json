@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/未命名.md",
+                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/02-数组与方法（pk004-pk006）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "02-数组与方法（pk004-pk006）"
             }
           }
         ]
@@ -193,5 +193,12 @@
     }
   },
   "active": "16fb4f9868bdc4ca",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "DodVv_Major_Notes/未命名.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/02-数组与方法（pk004-pk006）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE",
+    "DodVv_Major_Notes/20.课程笔记"
+  ]
 }
