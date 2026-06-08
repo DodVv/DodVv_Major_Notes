@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md",
+                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/09-File、IO流与网络编程（pk018-pk021）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10-ATM综合项目实战（chapt002）"
+              "title": "09-File、IO流与网络编程（pk018-pk021）"
             }
           }
         ]
@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 666.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +194,8 @@
   },
   "active": "16fb4f9868bdc4ca",
   "lastOpenFiles": [
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/09-File、IO流与网络编程（pk018-pk021）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/06-多态、抽象类、接口与常用API（pk010-pk011）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md.tmp.42732.b341542388f6",
