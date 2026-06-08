@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/02-数组与方法（pk004-pk006）.md",
+                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-数组与方法（pk004-pk006）"
+              "title": "01-Java基础语法入门（pk001-pk003）"
             }
           }
         ]
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,9 +195,19 @@
   },
   "active": "16fb4f9868bdc4ca",
   "lastOpenFiles": [
-    "DodVv_Major_Notes/未命名.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/09-File、IO流与网络编程（pk018-pk021）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/06-多态、抽象类、接口与常用API（pk010-pk011）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md.tmp.42732.b341542388f6",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/08-集合框架（Collection、List、Set、Map、Collections）（pk015-pk016）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/07-常用API与异常处理（pk012-pk014）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/02-数组与方法（pk004-pk006）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/05-static、继承与方法重写（pk009）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/04-String与ArrayList（pk008）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/03-面向对象基础（pk007）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/03-面向对象基础（pk007）.md.tmp.42732.170d5f5d82e4",
+    "DodVv_Major_Notes/未命名.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001",
     "DodVv_Major_Notes/20.课程笔记/JavaSE",
     "DodVv_Major_Notes/20.课程笔记"
