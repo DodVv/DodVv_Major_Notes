@@ -4,8 +4,8 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1780916523251,
-  "updatedAt": 1780916558010,
-  "lastResponseAt": 1780916558010,
+  "updatedAt": 1780917785943,
+  "lastResponseAt": 1780917785943,
   "sessionId": "5b0f5ebc-544a-4783-99e6-ffe2ba700e0b",
   "providerState": {
     "providerSessionId": "5b0f5ebc-544a-4783-99e6-ffe2ba700e0b"
@@ -13,11 +13,11 @@
   "currentNote": "DodVv_Major_Notes/未命名.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 21125,
+    "inputTokens": 173,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 21760,
     "contextWindow": 200000,
-    "contextTokens": 21125,
+    "contextTokens": 21933,
     "percentage": 11,
     "contextWindowIsAuthoritative": true
   }
