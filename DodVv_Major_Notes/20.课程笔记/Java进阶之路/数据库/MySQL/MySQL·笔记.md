@@ -9,6 +9,8 @@ tags:
 # MySQL
 
 > 来源：[MySQL学习路线](https://javabetter.cn/xuexiluxian/mysql.html) | [面渣逆袭-MySQL](https://javabetter.cn/sidebar/sanfene/mysql.html)
+>
+> 📎 **关联练习**：[[数据库/MySQL/SQL高级查询·实战练习（学生选课系统）\|SQL 高级查询实战]] — 9 个案例手把手练 JOIN/子查询/分组
 
 ---
 
