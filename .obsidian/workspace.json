@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16fb4f9868bdc4ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/09-File、IO流与网络编程（pk018-pk021）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "09-File、IO流与网络编程（pk018-pk021）"
-            }
-          },
-          {
             "id": "1f963ba91dfb6ae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
+                "file": "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Java基础语法入门（pk001-pk003）"
+              "title": "Java进阶·总览"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "686e146971936117",
@@ -192,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 571.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,23 +196,31 @@
   },
   "active": "1f963ba91dfb6ae2",
   "lastOpenFiles": [
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/异常处理/异常处理·笔记.md",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶之路·总览索引.md",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/SpringBoot/SpringBoot·笔记.md",
+    "Java进阶/Netty/Netty·笔记.md",
+    "Java进阶/Netty",
+    "Java进阶",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/数据库/MySQL/MySQL·笔记.md",
+    "数据库/MongoDB/MongoDB·笔记.md",
+    "数据库/MongoDB",
+    "数据库",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Spring/Spring·笔记.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/09-File、IO流与网络编程（pk018-pk021）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/08-集合框架（Collection、List、Set、Map、Collections）（pk015-pk016）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md",
+    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/01-Java基础语法入门（pk001-pk003）.md",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/异常处理/异常处理·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/面渣逆袭/面渣逆袭·总览.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/计算机基础/计算机基础·总览.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/SpringBoot/SpringBoot·笔记.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶之路·总览索引.md",
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/09-File、IO流与网络编程（pk018-pk021）.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/求职面试/八股文/八股文·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/常用工具类/常用工具类·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/Java概述及环境配置/Java概述及环境配置·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/数据库/Redis/Redis·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/求职面试/求职面试·总览.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/数据库/MySQL/MySQL·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/数据库/数据库·总览.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/数据库/数据库·总览.md.tmp.21620.5e9b773d8196",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Spring/Spring·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md.tmp.21620.c8cdd4810877",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/JVM虚拟机/JVM虚拟机·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/并发编程/并发编程·笔记.md",
@@ -235,15 +230,7 @@
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/集合框架/集合框架·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/面向对象编程/面向对象编程·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/面向对象编程/面向对象编程·笔记.md.tmp.21620.4cd29e893b42",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/数组与字符串/数组与字符串·笔记.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/Java基础语法/Java基础语法·笔记.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/Java基础·总览.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/Java基础·总览.md.tmp.21620.78581d0f2259",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/面渣逆袭",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/求职面试/优质面经",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/求职面试/八股文",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/求职面试",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/计算机基础",
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/10-ATM综合项目实战（chapt002）.md"
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/面渣逆袭"
   ]
 }

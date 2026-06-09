@@ -471,12 +471,12 @@ public class Client {
 
 ### 📌 字节流 vs 字符流
 
-| 对比 | 字节流 | 字符流 |
-|------|--------|--------|
-| 读写单位 | 字节（byte） | 字符（char） |
-| 适用场景 | 任何文件（图片/视频/音频/文本） | 纯文本文件（.txt/.java） |
-| 中文支持 | 可能乱码（一个中文多个字节） | 不会乱码 |
-| 典型类 | FileInputStream / FileOutputStream | FileReader / FileWriter |
+| 对比   | 字节流                                | 字符流                     |
+| ---- | ---------------------------------- | ----------------------- |
+| 读写单位 | 字节（byte）                           | 字符（char）                |
+| 适用场景 | 任何文件（图片/视频/音频/文本）                  | 纯文本文件（.txt/.java）       |
+| 中文支持 | 可能乱码（一个中文多个字节）                     | 不会乱码                    |
+| 典型类  | FileInputStream / FileOutputStream | FileReader / FileWriter |
 
 ### 📌 序列化要点
 
