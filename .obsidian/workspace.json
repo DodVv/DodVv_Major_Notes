@@ -11,10 +11,14 @@
             "id": "1f963ba91dfb6ae2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/11-MyBatis框架基础（补充）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11-MyBatis框架基础（补充）"
             }
           }
         ]
@@ -179,12 +183,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,10 +204,11 @@
   },
   "active": "1f963ba91dfb6ae2",
   "lastOpenFiles": [
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/MyBatis/MyBatis·笔记.md",
+    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Spring/Spring·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/11-MyBatis框架基础（补充）.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java基础/异常处理/异常处理·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md.tmp.6352.0e34788021fd",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/MyBatis/MyBatis·笔记.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/MyBatis",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/11_sql练习语句.md",
     "Java进阶/Netty/Netty·笔记.md",
