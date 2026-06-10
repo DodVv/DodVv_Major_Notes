@@ -54,6 +54,7 @@ Java基础 ───→ Java进阶 ───→ 数据库 ───→ 计算机
 | 模块 | 核心内容 |
 |------|---------|
 | [[Java进阶/Spring/Spring·笔记\|Spring]] | IoC、DI、AOP、事务管理 |
+| [[Java进阶/MyBatis/MyBatis·笔记\|MyBatis 🔥]] | **ORM、Mapper、动态SQL、缓存、Spring集成** |
 | [[Java进阶/SpringBoot/SpringBoot·笔记\|SpringBoot]] | 自动配置、起步依赖、整合MyBatis |
 | [[Java进阶/Netty/Netty·笔记\|Netty]] | Reactor模型、Netty核心组件 |
 | [[Java进阶/开发构建工具/开发构建工具·笔记\|开发/构建工具]] | Maven、Gradle、Git |
