@@ -1,6 +1,6 @@
 ---
 创建时间: 2026-06-09
-来源: runoob.com（菜鸟教程）
+来源: runoob.com（菜鸟教程）+ 课堂项目实战
 tags:
   - java/MyBatis
   - java/ORM
@@ -11,7 +11,7 @@ tags:
 # MyBatis 框架
 
 > 来源：[菜鸟教程 - MyBatis](https://www.runoob.com/java/java-mybatis.html)
-> 关联：[[数据库/MySQL/MySQL·笔记\|MySQL笔记]] | [[数据库/MySQL/SQL高级查询·实战练习（学生选课系统）\|SQL实战练习]]
+> 关联：[[MySQL·笔记\|MySQL笔记]] | [[SQL高级查询·实战练习（学生选课系统）\|SQL实战练习]]
 
 ---
 
@@ -439,7 +439,238 @@ public class UserService {
 
 ---
 
-## 十、🧩 知识点拆解
+## 🔟 注解式开发实战（课堂项目）🔥
+
+> 来源：课堂 `mybatis-annotation-demo` 项目
+> 与前述 XML 方式不同，本节采用**纯注解方式**（无 Mapper XML），适合快速开发和简洁代码场景。
+
+### 1. 项目环境
+
+| 技术 | 版本 |
+|:-----|:----:|
+| JDK | 1.8 |
+| MyBatis | 3.5.13 |
+| MySQL | 8.0 |
+| JUnit | 4.13.2 |
+
+### 2. 核心配置
+
+**mybatis-config.xml：**
+```xml
+<configuration>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>  <!-- 驼峰映射 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>         <!-- SQL日志 -->
+    </settings>
+    <typeAliases>
+        <package name="com.demo.entity"/>   <!-- 实体类包扫描，省去全限定名 -->
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis_anno_demo?serverTimezone=GMT%2B8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- ⭐ 扫描Mapper接口包（注解驱动核心）-->
+    <mappers>
+        <package name="com.demo.mapper"/>
+    </mappers>
+</configuration>
+```
+
+**工具类 MyBatisUtil：**
+```java
+public class MyBatisUtil {
+    private static SqlSessionFactory sqlSessionFactory;
+    static {
+        try {
+            InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
+            sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        } catch (IOException e) { e.printStackTrace(); }
+    }
+    public static SqlSession getSqlSession() {
+        return sqlSessionFactory.openSession(false);  // 手动提交事务
+    }
+    public static SqlSession getSqlSession(boolean autoCommit) {
+        return sqlSessionFactory.openSession(autoCommit);
+    }
+}
+```
+
+### 3. 单表 CRUD（注解方式）
+
+```java
+public interface UserMapper {
+    // @Select：查询
+    @Select("SELECT * FROM user")
+    List<User> selectAll();
+    
+    @Select("SELECT * FROM user WHERE id = #{id}")
+    User selectById(Integer id);
+
+    // @Insert：新增（#{xxx} 获取实体类属性）
+    @Insert("INSERT INTO user(username,age,email) VALUES(#{username},#{age},#{email})")
+    int insert(User user);
+
+    // @Update：修改
+    @Update("UPDATE user SET username=#{username},age=#{age},email=#{email} WHERE id=#{id}")
+    int update(User user);
+
+    // @Delete：删除
+    @Delete("DELETE FROM user WHERE id=#{id}")
+    int delete(Integer id);
+
+    // @Param：多参数时绑定参数名
+    @Select("SELECT * FROM user WHERE username=#{username} AND age=#{age}")
+    List<User> selectByCondition(@Param("username") String username, @Param("age") Integer age);
+
+    // Map参数（无需@Param，Key自动匹配）
+    @Select("SELECT * FROM user WHERE username=#{username} AND age=#{age}")
+    List<User> selectByMap(Map<String,Object> map);
+}
+```
+
+### 4. 一对一关联查询（@One）
+
+```java
+// ⭐ @Results + @Result + @One 实现一对一
+// 场景：一个用户 → 一条详情
+
+// UserInfoMapper（被关联方）
+public interface UserInfoMapper {
+    @Select("SELECT * FROM user_info WHERE user_id = #{userId}")
+    UserInfo selectUserInfoByUserId(Integer userId);
+}
+
+// UserMapper（主查询方）
+@Select("SELECT * FROM user WHERE id = #{id}")
+@Results(value = {
+    @Result(column = "id", property = "id", id = true),  // 主键
+    @Result(column = "username", property = "username"),
+    @Result(column = "age", property = "age"),
+    @Result(column = "email", property = "email"),
+    @Result(column = "create_time", property = "createTime"),
+    // ⭐ 一对一核心：把 user.id 传给被关联方法，赋值给 userInfo
+    @Result(
+        column = "id",
+        property = "userInfo",
+        one = @One(select = "com.demo.mapper.UserInfoMapper.selectUserInfoByUserId")
+    )
+})
+User selectUserWithInfo(Integer id);
+```
+
+### 5. 一对多关联查询（@Many）
+
+```java
+// ⭐ @Many 实现一对多
+// 场景：一个用户 → 多个订单
+
+// OrderMapper
+public interface OrderMapper {
+    @Select("SELECT * FROM `order` WHERE user_id = #{userId}")
+    List<Order> selectOrderByUserId(@Param("userId") Integer userId);
+}
+
+// UserMapper 中添加一对多方法
+@Select("SELECT * FROM user WHERE id = #{id}")
+@Results({
+    @Result(id=true, column = "id", property = "id"),
+    @Result(column = "username", property = "username"),
+    @Result(column = "create_time", property = "createTime"),
+    // ⭐ 一对多核心
+    @Result(
+        property = "orderList",
+        column = "id",
+        many = @Many(
+            select = "com.demo.mapper.OrderMapper.selectOrderByUserId",
+            fetchType = FetchType.EAGER  // EAGER立即加载 | LAZY懒加载（默认）
+        )
+    )
+})
+User selectUserWithOrder(@Param("id") Integer id);
+```
+
+### 6. 多对多关联查询（通过中间表）
+
+```java
+// ⭐ 多对多：用户 ↔ 角色（通过 user_role 中间表）
+// SQL 写法：INNER JOIN 中间表 + 目标表
+
+// RoleMapper
+public interface RoleMapper {
+    // ⭐ 三表关联SQL：用户角色中间表 → 角色表
+    @Select("SELECT r.* FROM role r " +
+            "INNER JOIN user_role ur ON r.id = ur.role_id " +
+            "WHERE ur.user_id = #{userId}")
+    List<Role> selectRoleByUserId(Integer userId);
+}
+
+// UserMapper 中多对多依然用 @Many（返回集合）
+// 与一对多的区别在于：SQL 关联的是中间表 + 角色表
+```
+
+### 7. 全关联查询（综合）
+
+```java
+// 一次查询：用户 + 详情 + 订单 + 角色
+@Select("SELECT * FROM user WHERE id = #{id}")
+@Results(value = {
+    @Result(column = "id", property = "id", id = true),
+    @Result(column = "username", property = "username"),
+    @Result(column = "create_time", property = "createTime"),
+    // 一对一
+    @Result(column = "id", property = "userInfo",
+            one = @One(select = "com.demo.mapper.UserInfoMapper.selectUserInfoByUserId")),
+    // 一对多
+    @Result(column = "id", property = "orderList",
+            many = @Many(select = "com.demo.mapper.OrderMapper.selectOrderByUserId")),
+    // 多对多
+    @Result(column = "id", property = "roleList",
+            many = @Many(select = "com.demo.mapper.RoleMapper.selectRoleByUserId"))
+})
+User selectUserAllRelation(Integer id);
+```
+
+### 8. 注解开发速查表
+
+| 注解 | 作用 | XML 对应 |
+|:-----|:------|:---------|
+| `@Select` | 查询 SQL | `<select>` |
+| `@Insert` | 新增 SQL | `<insert>` |
+| `@Update` | 修改 SQL | `<update>` |
+| `@Delete` | 删除 SQL | `<delete>` |
+| `@Param` | 绑定多参数名 | `parameterType="map"` |
+| `@Results` | 自定义结果集映射 | `<resultMap>` |
+| `@Result` | 单个字段映射 | `<result>` / `<id>` |
+| `@Result(one = @One(...))` | 一对一关联 | `<association>` |
+| `@Result(many = @Many(...))` | 一对多/多对多 | `<collection>` |
+| `@Options` | 配置选项（如自增主键回填） | `<insert useGeneratedKeys>` |
+
+### 9. 项目结构
+
+```
+mybatis-annotation-demo
+├── pom.xml
+└── src
+    ├── main/java/com/demo/
+    │   ├── entity/       实体类：User, UserInfo, Order, Role
+    │   ├── mapper/       Mapper接口（纯注解SQL）
+    │   └── util/          MyBatisUtil.java
+    ├── main/resources/
+    │   └── mybatis-config.xml
+    └── test/java/com/
+        └── BaseAnnoTest.java  所有测试方法
+```
+
+---
+
+## 十一、🧩 知识点拆解
 
 ### MyBatis 的核心类/接口
 

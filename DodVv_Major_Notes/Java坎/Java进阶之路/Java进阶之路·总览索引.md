@@ -35,58 +35,60 @@ Java基础 ───→ Java进阶 ───→ 数据库 ───→ 计算机
 
 ## 📖 章节导航
 
-### [🔰 Java基础](Java基础/Java基础·总览.md)
+### [🔰 Java基础](Java基础·总览.md)
 | 模块 | 核心内容 | 重要程度 |
 |------|---------|:--------:|
-| [[Java基础/Java概述及环境配置/Java概述及环境配置·笔记\|Java概述及环境配置]] | JDK/JRE/JVM、环境搭建、第一个程序 | ⭐⭐⭐ |
-| [[Java基础/Java基础语法/Java基础语法·笔记\|Java基础语法]] | 数据类型、运算符、流程控制、类型转换 | ⭐⭐⭐ |
-| [[Java基础/数组与字符串/数组与字符串·笔记\|数组与字符串]] | 数组、String、StringBuilder、StringBuffer | ⭐⭐⭐ |
-| [[Java基础/面向对象编程/面向对象编程·笔记\|Java面向对象编程]] | 封装/继承/多态、抽象类、接口、内部类 | ⭐⭐⭐ |
-| [[Java基础/集合框架/集合框架·笔记\|集合框架（容器）]] | Collection、List、Set、Map、HashMap源码 | ⭐⭐⭐ |
-| [[Java基础/IO流/IO流·笔记\|Java IO]] | 字节流、字符流、缓冲流、NIO | ⭐⭐⭐ |
-| [[Java基础/异常处理/异常处理·笔记\|异常处理]] | try-catch、throws、自定义异常 | ⭐⭐⭐ |
-| [[Java基础/常用工具类/常用工具类·笔记\|常用工具类]] | Arrays、Objects、Collections、Hutool | ⭐⭐ |
-| [[Java基础/重要知识点/重要知识点·笔记\|重要知识点]] | 泛型、注解、反射、枚举、序列化 | ⭐⭐⭐ |
-| [[Java基础/并发编程/并发编程·笔记\|Java并发编程]] | 线程、锁、线程池、AQS、JUC | ⭐⭐⭐ |
-| [[Java基础/JVM虚拟机/JVM虚拟机·笔记\|Java虚拟机]] | 内存模型、类加载、GC、调优 | ⭐⭐⭐ |
+| [[Java概述及环境配置·笔记\|Java概述及环境配置]] | JDK/JRE/JVM、环境搭建、第一个程序 | ⭐⭐⭐ |
+| [[Java基础语法·笔记\|Java基础语法]] | 数据类型、运算符、流程控制、类型转换 | ⭐⭐⭐ |
+| [[数组与字符串·笔记\|数组与字符串]] | 数组、String、StringBuilder、StringBuffer | ⭐⭐⭐ |
+| [[面向对象编程·笔记\|Java面向对象编程]] | 封装/继承/多态、抽象类、接口、内部类 | ⭐⭐⭐ |
+| [[集合框架·笔记\|集合框架（容器）]] | Collection、List、Set、Map、HashMap源码 | ⭐⭐⭐ |
+| [[IO流·笔记\|Java IO]] | 字节流、字符流、缓冲流、NIO | ⭐⭐⭐ |
+| [[异常处理·笔记\|异常处理]] | try-catch、throws、自定义异常 | ⭐⭐⭐ |
+| [[常用工具类·笔记\|常用工具类]] | Arrays、Objects、Collections、Hutool | ⭐⭐ |
+| [[重要知识点·笔记\|重要知识点]] | 泛型、注解、反射、枚举、序列化 | ⭐⭐⭐ |
+| [[并发编程·笔记\|Java并发编程]] | 线程、锁、线程池、AQS、JUC | ⭐⭐⭐ |
+| [[JVM虚拟机·笔记\|Java虚拟机]] | 内存模型、类加载、GC、调优 | ⭐⭐⭐ |
 
-### [🚀 Java进阶](Java进阶/Java进阶·总览.md)
+### [🚀 Java进阶](Java进阶·总览.md)
 | 模块 | 核心内容 |
 |------|---------|
-| [[Java进阶/Spring/Spring·笔记\|Spring]] | IoC、DI、AOP、事务管理 |
-| [[Java进阶/MyBatis/MyBatis·笔记\|MyBatis 🔥]] | **ORM、Mapper、动态SQL、缓存、Spring集成** |
-| [[Java进阶/SpringBoot/SpringBoot·笔记\|SpringBoot]] | 自动配置、起步依赖、整合MyBatis |
+| [[Spring·笔记\|Spring]] | IoC、DI、AOP、事务管理 |
+| [[MyBatis·笔记\|MyBatis 🔥]] | **ORM、Mapper、动态SQL、缓存、Spring集成** |
+| [[MyBatis注解式开发·课堂实战（mybatis-annotation-demo）\|MyBatis 注解实战]] | **纯注解、@One/@Many、关联查询** |
+| [[MyBatis-Plus实战入门（mybatisplus-demo）\|MyBatis-Plus 🔥]] | **BaseMapper、QueryWrapper、MP 核心功能** |
+| [[SpringBoot·笔记\|SpringBoot]] | 自动配置、起步依赖、整合MyBatis |
 | [[Java进阶/Netty/Netty·笔记\|Netty]] | Reactor模型、Netty核心组件 |
 | [[Java进阶/开发构建工具/开发构建工具·笔记\|开发/构建工具]] | Maven、Gradle、Git |
 | [[Java进阶/辅助工具/辅助工具·笔记\|辅助工具]] | Docker、日志框架（Logback/Log4j2）、Swagger |
 | [[Java进阶/分布式/分布式·笔记\|分布式]] | CAP理论、RPC、分布式事务 |
 
-### [🗄️ 数据库](数据库/数据库·总览.md)
+### [🗄️ 数据库](数据库·总览.md)
 | 模块 | 核心内容 |
 |------|---------|
-| 📎 **[[数据库/MySQL/SQL高级查询·实战练习（学生选课系统）\|SQL高级查询实战]]** | **9大案例+练习题，含参考答案** 🔥 |
-| [[数据库/MySQL/MySQL·笔记\|MySQL]] | 索引优化、事务隔离级别、MVCC、SQL优化 |
-| [[数据库/Redis/Redis·笔记\|Redis]] | 五种数据结构、持久化、集群、缓存穿透/击穿/雪崩 |
+| 📎 **[[SQL高级查询·实战练习（学生选课系统）\|SQL高级查询实战]]** | **9大案例+练习题，含参考答案** 🔥 |
+| [[MySQL·笔记\|MySQL]] | 索引优化、事务隔离级别、MVCC、SQL优化 |
+| [[Redis·笔记\|Redis]] | 五种数据结构、持久化、集群、缓存穿透/击穿/雪崩 |
 | [[数据库/MongoDB/MongoDB·笔记\|MongoDB]] | 文档模型、CRUD、索引 |
 
-### [💻 计算机基础](计算机基础/计算机基础·总览.md)
+### [💻 计算机基础](计算机基础·总览.md)
 | 模块 | 核心内容 |
 |------|---------|
-| [[计算机基础/计算机基础·总览\|操作系统]] | 进程线程、内存管理、文件系统 |
-| [[计算机基础/计算机基础·总览\|计算机网络]] | TCP/IP、HTTP/HTTPS、DNS |
-| [[计算机基础/计算机基础·总览\|数据结构与算法]] | 数组/链表/树/图、排序/查找 |
+| [[计算机基础·总览\|操作系统]] | 进程线程、内存管理、文件系统 |
+| [[计算机基础·总览\|计算机网络]] | TCP/IP、HTTP/HTTPS、DNS |
+| [[计算机基础·总览\|数据结构与算法]] | 数组/链表/树/图、排序/查找 |
 
-### [🎯 求职面试](求职面试/求职面试·总览.md)
+### [🎯 求职面试](求职面试·总览.md)
 | 模块 | 核心内容 |
 |------|---------|
-| [[求职面试/八股文/八股文·笔记\|面试题·八股文]] | Java基础、集合、并发、JVM、Spring、MySQL、Redis |
+| [[八股文·笔记\|面试题·八股文]] | Java基础、集合、并发、JVM、Spring、MySQL、Redis |
 | [[求职面试/优质面经/优质面经·笔记\|优质面经]] | 大厂面经、简历指导、学习路线 |
 
 ---
 
 ## 📖 面渣逆袭系列
 
-> **[「面渣逆袭」](面渣逆袭/面渣逆袭·总览.md)** — 面试前必读系列，涵盖 Java 基础、集合、并发、JVM、Spring、MyBatis、MySQL、Redis、操作系统、计算机网络、RocketMQ、分布式、微服务、设计模式、Linux 等。
+> **[「面渣逆袭」](面渣逆袭·总览.md)** — 面试前必读系列，涵盖 Java 基础、集合、并发、JVM、Spring、MyBatis、MySQL、Redis、操作系统、计算机网络、RocketMQ、分布式、微服务、设计模式、Linux 等。
 
 | 专题 | 状态 | 专题 | 状态 |
 |------|:----:|------|:----:|
