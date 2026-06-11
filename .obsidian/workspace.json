@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/MongoDB/MongoDB·笔记.md",
+                "file": "DodVv_Major_Notes/20.课程笔记/英语语法笔记/01-句子成分与基本句型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MongoDB·笔记"
+              "title": "01-句子成分与基本句型"
             }
           }
         ]
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,8 +203,24 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c7eda524f187fecb",
+  "active": "251b3aa459a523be",
   "lastOpenFiles": [
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/00-英语语法·总览索引.md",
+    "数据库/MongoDB/MongoDB·笔记.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/06-三大从句对比与总复习.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/06-三大从句对比与总复习.md.tmp.25260.badf33bb0b8c",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/05-名词性从句（主语-宾语-表语-同位语）.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/05-名词性从句（主语-宾语-表语-同位语）.md.tmp.25260.087b249f0dea",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/04-定语从句.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/03-非谓语动词（to-do-done）.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/03-非谓语动词（to-do-done）.md.tmp.25260.2040cdca16e7",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/02-动词时态与语态.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/02-动词时态与语态.md.tmp.25260.95edca55fc47",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/01-句子成分与基本句型.md",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/01-句子成分与基本句型.md.tmp.25260.3ec329d2289a",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/assets",
+    "DodVv_Major_Notes/20.课程笔记/英语语法笔记",
+    "DodVv_Major_Notes/20.课程笔记",
     "英语语法笔记",
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/13-MyBatis框架基础（补充）.md",
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/01-Java基础语法入门（pk001-pk003）.md",
@@ -220,30 +236,14 @@
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/11_sql练习语句.md",
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/12-MyBatis-Plus实战入门（补充）.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md.tmp.25260.6ed5ce75d20a",
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/assets",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatisPlus/assets",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatisPlus",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/assets/mybatis-maven-config.png",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/assets/mybatis-project-structure.png",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/assets",
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/11-MyBatis框架基础（补充）.md.tmp.25260.ad5ed439c065",
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/11-MyBatis框架基础（补充）.md.tmp.25260.2909190e2c4c",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/MyBatis/MyBatis·笔记.md.tmp.25260.9b2f84bc6c5d",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/MyBatis·笔记.md",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/Spring/Spring·笔记.md",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java基础/异常处理/异常处理·笔记.md",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/Java进阶·总览.md.tmp.6352.0e34788021fd",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis",
     "Java进阶/Netty/Netty·笔记.md",
     "DodVv_Major_Notes/未命名.md",
     "DodVv_Major_Notes/Java坎/Java进阶之路/数据库/MySQL/SQL高级查询·实战练习（学生选课系统）.md",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/数据库/数据库·总览.md",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/数据库/MySQL/MySQL·笔记.md",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/数据库/Redis/Redis·笔记.md",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶之路·总览索引.md",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/面渣逆袭/面渣逆袭·总览.md",
-    "DodVv_Major_Notes/Java坎/Java进阶之路/Java基础/Java基础语法/Java基础语法·笔记.md",
-    "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/09-File、IO流与网络编程（pk018-pk021）.md",
-    "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/08-集合框架（Collection、List、Set、Map、Collections）（pk015-pk016）.md"
+    "DodVv_Major_Notes/Java坎/Java进阶之路/数据库/数据库·总览.md"
   ]
 }
