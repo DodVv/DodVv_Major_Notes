@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/20.课程笔记/英语语法笔记/01-句子成分与基本句型.md",
+                "file": "英语语法笔记/英语语法笔记/00-英语语法·总览索引.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-句子成分与基本句型"
+              "title": "00-英语语法·总览索引"
             }
           }
         ]
@@ -205,21 +205,21 @@
   },
   "active": "251b3aa459a523be",
   "lastOpenFiles": [
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/00-英语语法·总览索引.md",
+    "英语语法笔记/英语语法笔记/04-定语从句.md",
+    "英语语法笔记/英语语法笔记/03-非谓语动词（to-do-done）.md",
+    "英语语法笔记/英语语法笔记/02-动词时态与语态.md",
+    "英语语法笔记/英语语法笔记/01-句子成分与基本句型.md",
+    "英语语法笔记/英语语法笔记/00-英语语法·总览索引.md",
     "数据库/MongoDB/MongoDB·笔记.md",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/06-三大从句对比与总复习.md",
+    "英语语法笔记/英语语法笔记/06-三大从句对比与总复习.md",
     "DodVv_Major_Notes/20.课程笔记/英语语法笔记/06-三大从句对比与总复习.md.tmp.25260.badf33bb0b8c",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/05-名词性从句（主语-宾语-表语-同位语）.md",
+    "英语语法笔记/英语语法笔记/05-名词性从句（主语-宾语-表语-同位语）.md",
     "DodVv_Major_Notes/20.课程笔记/英语语法笔记/05-名词性从句（主语-宾语-表语-同位语）.md.tmp.25260.087b249f0dea",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/04-定语从句.md",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/03-非谓语动词（to-do-done）.md",
     "DodVv_Major_Notes/20.课程笔记/英语语法笔记/03-非谓语动词（to-do-done）.md.tmp.25260.2040cdca16e7",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/02-动词时态与语态.md",
     "DodVv_Major_Notes/20.课程笔记/英语语法笔记/02-动词时态与语态.md.tmp.25260.95edca55fc47",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/01-句子成分与基本句型.md",
     "DodVv_Major_Notes/20.课程笔记/英语语法笔记/01-句子成分与基本句型.md.tmp.25260.3ec329d2289a",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记/assets",
-    "DodVv_Major_Notes/20.课程笔记/英语语法笔记",
+    "英语语法笔记/英语语法笔记/assets",
+    "英语语法笔记/英语语法笔记",
     "DodVv_Major_Notes/20.课程笔记",
     "英语语法笔记",
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/13-MyBatis框架基础（补充）.md",
