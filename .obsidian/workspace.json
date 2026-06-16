@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8c46464bc7dfd9e7",
+        "id": "090997a1b3fc9d7a",
         "type": "tabs",
         "children": [
           {
-            "id": "251b3aa459a523be",
+            "id": "c151a8110c353369",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot实战入门.md",
+                "file": "DodVv_Major_Notes/01-课堂笔记/04-通俗易懂Java笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-SpringBoot实战入门"
+              "title": "04-通俗易懂Java笔记"
             }
           }
         ]
@@ -202,8 +202,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "251b3aa459a523be",
+  "active": "c151a8110c353369",
   "lastOpenFiles": [
+    "DodVv_Major_Notes/01-课堂笔记/11-SQL高级查询练习.md",
+    "DodVv_Major_Notes/01-课堂笔记/04-通俗易懂Java笔记.md",
+    "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot实战入门.md",
     "数据库/MongoDB/MongoDB·笔记.md",
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/15.SpringBoot实战·部门员工管理系统（课堂案例）.md",
     "DodVv_Major_Notes/03-英语语法/06-三大从句对比与总复习.md",
@@ -238,9 +241,6 @@
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/SpringBoot",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/Spring",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/总览.md",
-    "DodVv_Major_Notes/02-Java进阶之路/Java基础/JVM虚拟机.md",
-    "DodVv_Major_Notes/02-Java进阶之路/Java基础/并发编程.md",
-    "DodVv_Major_Notes/02-Java进阶之路/Java基础/重要知识点.md",
     "DodVv_Major_Notes/03-英语语法",
     "DodVv_Major_Notes/02-Java进阶之路/求职面试",
     "DodVv_Major_Notes/02-Java进阶之路/计算机基础",
