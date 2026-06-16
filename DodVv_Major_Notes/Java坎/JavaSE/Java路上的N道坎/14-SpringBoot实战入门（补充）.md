@@ -13,7 +13,7 @@ tags:
 # 13-SpringBoot 实战入门（补充）
 
 > **关联笔记**：[[11-MyBatis框架基础（补充）]] | [[12-MyBatis-Plus实战入门（补充）]]
-> **完整版**：[[20.课程笔记/Java进阶之路/Java进阶/SpringBoot/SpringBoot实战·部门员工管理系统（课堂案例）\|SpringBoot 实战完整版]]
+> **完整版**：[[15.SpringBoot实战·部门员工管理系统（课堂案例）\|SpringBoot 实战完整版]]
 
 ---
 

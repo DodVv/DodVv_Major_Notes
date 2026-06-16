@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/SpringBoot/SpringBoot·笔记.md",
+                "file": "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/15.SpringBoot实战·部门员工管理系统（课堂案例）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SpringBoot·笔记"
+              "title": "15.SpringBoot实战·部门员工管理系统（课堂案例）"
             }
           }
         ]
@@ -202,13 +202,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c7eda524f187fecb",
+  "active": "78be4d11e60f017f",
   "lastOpenFiles": [
+    "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/14-SpringBoot实战入门（补充）.md",
+    "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/SpringBoot/SpringBoot·笔记.md",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/Spring/Spring·笔记.md",
-    "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001/13-SpringBoot实战入门（补充）.md",
     "DodVv_Major_Notes/20.课程笔记/JavaSE/chapt001",
     "DodVv_Major_Notes/20.课程笔记/JavaSE",
-    "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/SpringBoot/SpringBoot实战·部门员工管理系统（课堂案例）.md",
+    "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/15.SpringBoot实战·部门员工管理系统（课堂案例）.md",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶/SpringBoot",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路/Java进阶",
     "DodVv_Major_Notes/20.课程笔记/Java进阶之路",
@@ -242,7 +243,6 @@
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/assets/mybatis-project-structure.png",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/MyBatis·笔记.md",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java基础/异常处理/异常处理·笔记.md",
-    "Java进阶/Netty/Netty·笔记.md",
-    "DodVv_Major_Notes/未命名.md"
+    "Java进阶/Netty/Netty·笔记.md"
   ]
 }
