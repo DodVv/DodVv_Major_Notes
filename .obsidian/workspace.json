@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/01-课堂笔记/13-SpringBoot实战入门.md",
+                "file": "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13-SpringBoot实战入门"
+              "title": "14-SpringBoot部门员工管理系统"
             }
           }
         ]
@@ -202,14 +202,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "78be4d11e60f017f",
+  "active": "e26607428459d21e",
   "lastOpenFiles": [
-    "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatis/MyBatis关联查询三板斧（表设计·实体·Mapper）.md",
-    "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
     "DodVv_Major_Notes/01-课堂笔记/13-SpringBoot实战入门.md",
+    "DodVv_Major_Notes/01-课堂笔记/12-MyBatis框架基础.md",
+    "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
+    "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatis/MyBatis关联查询三板斧（表设计·实体·Mapper）.md",
     "DodVv_Major_Notes/01-课堂笔记/01-Java基础语法入门.md",
     "故事Java/通俗易懂Java笔记.md",
-    "DodVv_Major_Notes/01-课堂笔记/12-MyBatis框架基础.md",
     "DodVv_Major_Notes/01-课堂笔记/11-MyBatis-Plus实战入门.md",
     "数据库/11-SQL高级查询练习.md",
     "故事Java",
