@@ -11,10 +11,14 @@
             "id": "a87f9978c36b76e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Git与Gitee操作指南（本地→远端推送流程）"
             }
           }
         ]
@@ -183,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +203,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a87f9978c36b76e2",
+  "active": "c7eda524f187fecb",
   "lastOpenFiles": [
+    "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md",
+    "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md.tmp.16836.d1d4e308f59c",
     "DodVv_Major_Notes/未命名.md",
     "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
     "DodVv_Major_Notes/01-课堂笔记/13-SpringBoot实战入门.md",
@@ -227,7 +234,6 @@
     "DodVv_Major_Notes/02-Java进阶之路/数据库/Redis笔记.md",
     "DodVv_Major_Notes/02-Java进阶之路/数据库/SQL高级查询实战.md",
     "DodVv_Major_Notes/02-Java进阶之路/数据库/MySQL笔记.md",
-    "DodVv_Major_Notes/02-Java进阶之路/数据库/总览.md",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/assets/mp-project.png",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/assets/mp-maven-refresh.png",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/assets",
@@ -239,7 +245,6 @@
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/SpringBoot",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/Spring",
     "DodVv_Major_Notes/03-英语语法",
-    "DodVv_Major_Notes/02-Java进阶之路/求职面试",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatisPlus/assets/mp-maven-refresh.png",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatisPlus/assets/mp-project.png",
     "DodVv_Major_Notes/Java坎/Java进阶之路/Java进阶/MyBatis/assets/mybatis-maven-config.png",
