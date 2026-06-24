@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "431d73f22e7f19aa",
+        "id": "c32e5dcd8e0a424d",
         "type": "tabs",
         "children": [
           {
-            "id": "e26607428459d21e",
+            "id": "a87f9978c36b76e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "14-SpringBoot部门员工管理系统"
+              "title": "新标签页"
             }
           }
         ]
@@ -202,11 +198,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "e26607428459d21e",
+  "active": "a87f9978c36b76e2",
   "lastOpenFiles": [
+    "DodVv_Major_Notes/未命名.md",
+    "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
     "DodVv_Major_Notes/01-课堂笔记/13-SpringBoot实战入门.md",
     "DodVv_Major_Notes/01-课堂笔记/12-MyBatis框架基础.md",
-    "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatis/MyBatis关联查询三板斧（表设计·实体·Mapper）.md",
     "DodVv_Major_Notes/01-课堂笔记/01-Java基础语法入门.md",
     "故事Java/通俗易懂Java笔记.md",
@@ -234,7 +231,6 @@
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/assets/mp-project.png",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/assets/mp-maven-refresh.png",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/assets",
-    "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatisPlus/MyBatis-Plus实战入门.md",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatis/assets/mybatis-project-structure.png",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatis/assets/mybatis-maven-config.png",
     "DodVv_Major_Notes/02-Java进阶之路/Java进阶/MyBatis/assets",
