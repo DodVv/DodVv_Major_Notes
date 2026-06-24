@@ -121,13 +121,13 @@ cat ~/.ssh/id_rsa.pub
 
 ### 常用命令速查
 
-| 命令 | 作用 |
-|:-----|:------|
-| `git status` | 查看更改状态 |
-| `git add .` | 添加所有更改到暂存区 |
-| `git commit -m "说明"` | 提交到本地仓库 |
-| `git pull origin master` | 拉取远端最新代码 |
-| `git push origin master` | 推送到远端 |
-| `git log` | 查看提交历史 |
-| `git reset HEAD 文件名` | 取消暂存某个文件 |
-| `git checkout -- 文件名` | 撤销对某个文件的修改 |
+| 命令                       | 作用         |
+| :----------------------- | :--------- |
+| `git status`             | 查看更改状态     |
+| `git add .`              | 添加所有更改到暂存区 |
+| `git commit -m "说明"`     | 提交到本地仓库    |
+| `git pull origin master` | 拉取远端最新代码   |
+| `git push origin master` | 推送到远端      |
+| `git log`                | 查看提交历史     |
+| `git reset HEAD 文件名`     | 取消暂存某个文件   |
+| `git checkout -- 文件名`    | 撤销对某个文件的修改 |
