@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 307.5,
+    "collapsed": true
   },
   "right": {
     "id": "686e146971936117",
@@ -203,7 +204,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c7eda524f187fecb",
+  "active": "a87f9978c36b76e2",
   "lastOpenFiles": [
     "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md",
     "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md.tmp.16836.d1d4e308f59c",
