@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md",
+                "file": "数据库/11-SQL高级查询练习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git与Gitee操作指南（本地→远端推送流程）"
+              "title": "11-SQL高级查询练习"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
-    "collapsed": true
+    "width": 307.5
   },
   "right": {
     "id": "686e146971936117",
