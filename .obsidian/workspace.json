@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,9 +202,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "a87f9978c36b76e2",
+  "active": "c7eda524f187fecb",
   "lastOpenFiles": [
     "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md",
+    "数据库/11-SQL高级查询练习.md",
     "DodVv_Major_Notes/01-课堂笔记/Git与Gitee操作指南（本地→远端推送流程）.md.tmp.16836.d1d4e308f59c",
     "DodVv_Major_Notes/未命名.md",
     "DodVv_Major_Notes/01-课堂笔记/14-SpringBoot部门员工管理系统.md",
@@ -215,7 +215,6 @@
     "DodVv_Major_Notes/01-课堂笔记/01-Java基础语法入门.md",
     "故事Java/通俗易懂Java笔记.md",
     "DodVv_Major_Notes/01-课堂笔记/11-MyBatis-Plus实战入门.md",
-    "数据库/11-SQL高级查询练习.md",
     "故事Java",
     "数据库/MongoDB/MongoDB·笔记.md",
     "DodVv_Major_Notes/Java坎/JavaSE/Java路上的N道坎/15.SpringBoot实战·部门员工管理系统（课堂案例）.md",
